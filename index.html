@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+		<title>TBA</title>
+	</head>
+	<body>
+		<script>
+			const request = require('request');
+
+			const options = {
+			    url: 'https://www.thebluealliance.com/api/v3/event/2020caln/matches/simple',
+			    method: 'GET',
+			    }
+			};
+
+			request(options, function(err, res, body) {
+			    let json = JSON.parse(body);
+			    console.log(json);
+			});
+
+
+		</script>
+	</body>
+</html>
