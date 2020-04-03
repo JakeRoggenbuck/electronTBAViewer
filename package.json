@@ -1,0 +1,22 @@
+{
+  "name": "electrontbaviewer",
+  "version": "1.0.0",
+  "description": "A viewer for tba data",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeRoggenbuck/electronTBAViewer.git"
+  },
+  "author": "Jake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeRoggenbuck/electronTBAViewer/issues"
+  },
+  "homepage": "https://github.com/JakeRoggenbuck/electronTBAViewer#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
